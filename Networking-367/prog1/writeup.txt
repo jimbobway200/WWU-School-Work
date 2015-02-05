@@ -1,0 +1,11 @@
+James Collins
+To the best of my knowledge everything is working. The only exception to this is when a client submits a request for placement of a token and then continues to type after has hit 'enter' and hits 'enter' again. it's like the data is transmitted or stuck in a buffer as game behaviour becomes inconsistent after this.
+Given more time I would research that bug more and if there is anything to do to fix it.
+
+I tested my code by sparking up multiple clients and running multiple games concurrently. I would play as both players but trying to win under the different circumstances like horizontal win, diag win, vertical win. 
+The client and server both close there connections after the game is over.
+
+The most challenging part of this project was probably the logic for winning a game. There are many scenarios for winning and there was a lot of edge cases to consider. Luckily for loops exist which means I didn't have to hand code every single check :)
+
+Chess would be pretty awesome however the logic would be much more involved as you have to consider the fact that game pieces can only move in a certain direction. I would hope at that point I would consider a 2D array as this might help with the logic and make it slightly less bad.
+
